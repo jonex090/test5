@@ -9,7 +9,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
-main{
+main {
   margin-top: -150px;
 }
 
@@ -50,13 +50,13 @@ h1 {
   color: rgb(224, 45, 0);
   text-align: center;
 }
-.submit input{
+.submit button {
   background-color: rgb(224, 45, 0);
   border: 0px;
   border-radius: 10px;
   padding: 20px 40px;
   color: white;
-  cursor: pointer
+  cursor: pointer;
 }
 .body-text {
   margin-left: 350px;
@@ -64,9 +64,19 @@ h1 {
 }
 .contact {
   color: rgb(224, 45, 0);
+  text-align: start;
 }
-.social{
+.social {
   padding: 40px 10px;
   display: inline-block;
   justify-content: space-between;
+}
+
+#about p {
+  text-align: left;
+}
+.form input,
+textarea {
+  padding: 5px;
+  border-radius: 5px;
 }
