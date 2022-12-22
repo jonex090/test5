@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="sidebar decoration">
+        <div>
+          <ul>
+            <li>
+              <a href="#index">Home</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container body-text profile text" id="index">
+        <img src="me.png" alt="Girl" width="250" height="250" />
+        <h1>Jovica Ilieski</h1>
+        <p>Frontend Developer</p>
+      </div>
+      <div class="container body-text" id="about">
+        <img src="about.jpg" alt="Girl" width="450" height="250" />
+      </div>
+      <div class="container body-text" id="contact">
+        <form class="contact">
+          <label for="firstname">First name:</label><br>
+          <input type="text" name="firstname" /><br>
+          <label for="firstname">Last name:</label><br>
+          <input type="text" name="lastname" /><br>
+          <label for="textarea">Comment:</label><br>
+          <textarea name="comment" rows="7" cols="50">
+          </textarea><br>
+          <input type="submit">
+        </form>
+      </div>
+    </main>
+  </body>
 </html>
